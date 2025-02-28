@@ -19,11 +19,21 @@ on a website.
 We will also look to see if there is a way to allow providing anonymised
 user names, either at general level or a user specifc lavel.
 
-
 ## Implementation
 
 This project is written in Typescript and makes use of the Discord.js
 package.
+
+# Running
+
+First get the dependencies via `npm install`,
+
+then run the app via `npm run main` and provide options as follows (substituting
+the values as appropriate):
+
+```bash
+npm run main -- --token mytoken --channelid 12345 --format json --file output.json
+```
 
 ## License
 

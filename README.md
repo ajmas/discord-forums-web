@@ -24,7 +24,7 @@ user names, either at general level or a user specifc lavel.
 This project is written in Typescript and makes use of the Discord.js
 package.
 
-# Running
+## Running
 
 First get the dependencies via `npm install`,
 

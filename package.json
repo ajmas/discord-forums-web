@@ -1,0 +1,23 @@
+{
+  "name": "discord-forums-web",
+  "version": "0.0.1",
+  "description": "Project for helping publish a Discord forum to the web",
+  "main": "dist/index.js",
+  "scripts": {
+    "main": "tsx src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "discord"
+  ],
+  "author": "Andre-John Mas",
+  "license": "MIT",
+  "devDependencies": {
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "commander": "^13.1.0",
+    "discord.js": "^14.18.0"
+  }
+}

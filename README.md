@@ -1,7 +1,5 @@
 # Discord Forums Web
 
-Status: unreleased / in-development
-
 The intent of this project is make it so that the messages in a
 Discord forum channel can be published to the web.
 
@@ -33,6 +31,12 @@ the values as appropriate):
 
 ```bash
 npm run main -- --token mytoken --channelid 12345 --format json --file output.json
+```
+
+For more help and other options:
+
+```bash
+npm run main -- --help
 ```
 
 ## License
